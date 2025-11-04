@@ -1,4 +1,3 @@
-# main
 # Zapier HTML/CSS — Landing + Lead Form
 
 A small responsive landing page with a modal lead-capture form that posts directly to a Zapier webhook.
