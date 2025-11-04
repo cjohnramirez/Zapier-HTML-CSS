@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const ZAPIER_HOOK_URL = "https://hooks.zapier.com/hooks/catch/25239454/us6c7q6/";
+const ZAPIER_HOOK_URL = process.env.ZAPIER_HOOK_URL;
 
 app.post("/submit", async (req, res) => {
   try {
