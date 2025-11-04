@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lead Capture Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="landing">
+      <nav class="nav">
+        <div class="nav-box">
+          <a class="logo" href="#top">Acme Company Inc.</a>
+          <ul class="nav-links" aria-label="Primary navigation">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <header class="hero" role="banner">
+        <div class="hero-content">
+          <h1>Grow faster with better leads</h1>
+          <p>
+            Capture qualified leads, automate follow-ups, and scale your
+            business — all from a single, simple form.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#about">Learn More</a>
+            <button class="btn btn-secondary" id="open-modal">
+              Get a Demo
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="section about">
+          <div class="container">
+            <div class="about-left">
+              <div>
+                <h2>About</h2>
+                <p>
+                  We help small and medium businesses capture more leads with a
+                  lightweight, privacy-friendly form that integrates with your
+                  favorite tools.
+                </p>
+              </div>
+
+              <ul class="about-features">
+                <li>
+                  <strong>Easy setup:</strong> Copy-paste embed or use our modal
+                  form.
+                </li>
+                <li>
+                  <strong>Smart validation:</strong> Reduce bad submissions and
+                  typos.
+                </li>
+                <li>
+                  <strong>Integrations:</strong> Send leads to email, CRM,
+                  Zapier, webhooks, and other marketing tools
+                </li>
+                <li>
+                  <strong>Privacy-first:</strong> Configurable consent, GDPR
+                  options, and data retention controls.
+                </li>
+              </ul>
+            </div>
+            <div class="about-right"></div>
+          </div>
+        </section>
+
+        <section id="services" class="section services">
+          <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+              <article class="service-card">
+                <div class="icon" aria-hidden="true">🔧</div>
+                <h3>Form Customization</h3>
+                <p>
+                  Create forms that match your brand and collect the fields you
+                  need.
+                </p>
+              </article>
+              <article class="service-card">
+                <div class="icon" aria-hidden="true">⚡</div>
+                <h3>Automation</h3>
+                <p>
+                  Trigger workflows, notifications, and CRM updates the moment a
+                  lead submits.
+                </p>
+              </article>
+              <article class="service-card">
+                <div class="icon" aria-hidden="true">🔒</div>
+                <h3>Data Protection</h3>
+                <p>
+                  GDPR-friendly options, secure storage, and control over
+                  retention.
+                </p>
+              </article>
+              <article class="service-card">
+                <div class="icon" aria-hidden="true">📊</div>
+                <h3>Advanced Analytics</h3>
+                <p>
+                  Track form performance, conversion rates, and lead sources to
+                  optimize your funnel.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="testimonials"
+          class="section testimonials"
+          aria-labelledby="testimonials-heading"
+        >
+          <div class="container">
+            <h2 id="testimonials-heading">What customers say</h2>
+            <ul class="testimonials-list">
+              <li>
+              <blockquote>
+                "We doubled our qualified leads in 30 days. Simple to install
+                and integrates with our CRM."
+              </blockquote>
+              <cite> Alex R., Marketing Manager</cite>
+              </li>
+              <li>
+              <blockquote>
+                "The modal form increased conversions on our blog without
+                slowing the site."
+              </blockquote>
+              <cite> Priya S., Founder</cite>
+              </li>
+              <li>
+              <blockquote>
+                "Analytics and A/B testing made it easy to optimize our
+                form—conversions improved immediately."
+              </blockquote>
+              <cite> Maria K., Growth Lead</cite>
+              </li>
+              <li>
+              <blockquote>
+                "Reliable webhooks and Zapier integrations saved our team
+                hours of manual work each week."
+              </blockquote>
+              <cite> Jamal T., CTO</cite>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="pricing" class="section pricing">
+          <div class="container">
+            <h2>Pricing</h2>
+            <p class="muted">
+              Plans for teams of any size. Try free for 14 days — no credit card
+              required.
+            </p>
+            <div class="pricing-grid">
+              <div class="plan">
+                <h3>Starter</h3>
+                <p class="price">$0<span>/month</span></p>
+                <ul>
+                  <li>Basic form & modal</li>
+                  <li>100 leads / month</li>
+                  <li>Email support</li>
+                </ul>
+                <button class="btn btn-outline">Choose</button>
+              </div>
+              <div class="plan popular">
+                <h3>Pro</h3>
+                <p class="price">$29<span>/month</span></p>
+                <ul>
+                  <li>Unlimited forms</li>
+                  <li>2,000 leads / month</li>
+                  <li>Zapier + webhook integrations</li>
+                </ul>
+                <button class="btn btn-primary">Get Pro</button>
+              </div>
+              <div class="plan">
+                <h3>Enterprise</h3>
+                <p class="price">Custom</p>
+                <ul>
+                  <li>Dedicated account</li>
+                  <li>Advanced security</li>
+                  <li>Priority support</li>
+                </ul>
+                <button class="btn btn-outline">Contact Sales</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer" class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+          <div class="footer-col">
+            <h4>MyCompany</h4>
+            <p>Helping you capture and convert more leads.</p>
+          </div>
+          <div class="footer-col">
+            <h5>Resources</h5>
+            <ul>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <address>
+              <a href="mailto:hello@example.com">hello@example.com</a><br />
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </address>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <small
+            >&copy; <span id="year">2025</span> MyCompany. All rights
+            reserved.</small
+          >
+        </div>
+      </footer>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <form id="lead-form" class="modal-left" novalidate>
+          <div class="form-header">
+            <h1 class="modal-title">Contact Us</h1>
+            <p>Keep us in touch!</p>
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+            <small class="error" id="name-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+            <small class="error" id="email-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input
+              name="phone"
+              id="phone"
+              placeholder="Your Valid Phone Number"
+              required
+            />
+            <small class="error" id="phone-error"></small>
+          </div>
+          <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="button" id="close-modal">Close</button>
+          </div>
+          <p id="status"></p>
+        </form>
+        <div class="modal-right">
+          <img src="./assets/modal-image.jpg" class="modal-image" />
+        </div>
+      </div>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>
